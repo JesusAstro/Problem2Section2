@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             document.querySelector('figcaption em').textContent = img.getAttribute('title') ;
 	    document.querySelector('figcaption span').textContent = img.getAttribute('alt');
-	    bigImage.style.filter = none;
+	    
         });
     }
 
