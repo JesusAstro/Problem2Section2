@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
             //let text = document.createTextNode
 
             document.querySelector('figcaption em').textContent = img.getAttribute('title') ;
-			document.querySelector('figcaption span').textContent = img.getAttribute('alt');
+	    document.querySelector('figcaption span').textContent = img.getAttribute('alt');
+	    bigImage.style.filter = none;
         });
     }
 
